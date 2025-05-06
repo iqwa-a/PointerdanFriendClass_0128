@@ -20,3 +20,7 @@ private:
     friend void manusia::ShowNilaiPelajar(pelajar &a);
 
 };
+void manusia::ShowNilaiPelajar(pelajar &a)
+{
+    cout << a.nilai;
+};
