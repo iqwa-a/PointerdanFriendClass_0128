@@ -3,18 +3,33 @@ using namespace std;
 
 class PersegiPanjang 
 {
-public: 
+    public: //akses modifier
     int panjang, lebar;
 
-public:
-void input()
+    public: 
+     void input()
+     {
+      cout << "Masukkan panjang: ";
+      cin >> panjang;
+      cout << "Masukkan lebar: ";
+      cin >> lebar;
+     }
+    int luasPp(int a, int b)
+    {
+     return a * b;
+    }
+   //lingkaranol;
+};
+
+class Lingkaran
 {
-    cout << "Masukkan panjang: ";
-    cin >> panjang;
-    cout << "Masukkan lebar: ";
-    cin >> lebar;
-}
-int luasPp(int a, int b)
-{
-    return a * b;
+    public:
+    int jariJari;
+
+    void input()
+    {
+     cout << "Masukkan jari-jari: ";
+     cin >> jariJari;
+    }
+    
 }
