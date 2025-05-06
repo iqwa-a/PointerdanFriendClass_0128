@@ -38,3 +38,15 @@ class Lingkaran
     }
 
 };
+int main()
+{
+    PersegiPanjang objectPP;
+    Lingkaran ol;
+
+    cout << "=== Luas Persegi Panjang ===: ";
+    cin >> objectPP.panjang;
+    cout << "=== Masukan Lebar === : ";
+    cin >> objectPP.lebar;
+    cout << "Luas Persegi Panjang : " <<
+    objectPP.luasPp(objectPP.panjang, objectPP.lebar) << endl; 
+}
