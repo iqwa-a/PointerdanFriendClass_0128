@@ -19,4 +19,8 @@ int main()
     refMhs.nim = 2; // member access oprator
     mhs.showNim(); // member access oprator
 
+    mahasiswa*pMhs = &mhs; // pointer Derefence object
+    pMhs->nim = 3;
+    pMhs->showNim(); 
+    return 0;
 }
