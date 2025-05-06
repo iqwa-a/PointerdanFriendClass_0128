@@ -4,8 +4,7 @@ using namespace std;
 class PersegiPanjang 
 {
 public: 
-    int panjang,
-    int lebar;
+    int panjang, lebar;
 
 public:
 void input()
