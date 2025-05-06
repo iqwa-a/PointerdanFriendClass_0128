@@ -14,3 +14,7 @@ void input()
     cout << "Masukkan lebar: ";
     cin >> lebar;
 }
+int luasPp(int a, int b)
+{
+    return a * b;
+}
